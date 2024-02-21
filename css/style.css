@@ -129,9 +129,36 @@ img {
  ************************************************/
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
     }
     .steps {
-        margin: 1rem;;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        flex-wrap: wrap;
+    }
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        justify-content: center;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
     }
 }
