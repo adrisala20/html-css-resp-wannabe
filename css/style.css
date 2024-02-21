@@ -131,18 +131,23 @@ img {
     .container {
         width: 768px;
     }
-    .steps {
-        margin: 1rem;
+    h1 {
+        margin-left: 4rem;
     }
 }
-
 @media screen and (max-width: 480px) {
     .container {
         max-width: 480px;
         flex-wrap: wrap;
     }
+    h1{
+        margin: 1rem;
+    }
     .row {
         flex-direction: column;
+        width: 100%;
+    }
+    .steps {
         width: 100%;
     }
     .steps .col {
