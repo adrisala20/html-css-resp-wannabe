@@ -131,4 +131,7 @@ img {
     .container {
         max-width: 768px;
     }
+    .steps {
+        margin: 1rem;;
+    }
 }
