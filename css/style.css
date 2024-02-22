@@ -127,43 +127,29 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px){
+    .container {
+        width: auto;
+        max-width: 1140px;
+    }
+}
+ /* @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
     h1 {
         margin-left: 4rem;
     }
-}
+} */
 @media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
+    .row {
         flex-wrap: wrap;
     }
-    h1{
-        margin: 1rem;
-    }
-    .row {
-        flex-direction: column;
-        width: 100%;
-    }
-    .steps {
-        width: 100%;
-    }
-    .steps .col {
-        width: 100%;
-    }
-    .lessons .col {
-        width: 100%;
-    }
-    .card {
-        width: 100%;
-        justify-content: center;
-    }
-    .why-us .col-left {
-        width: 100%;
-    }
+    .steps .col, 
+    .lessons .col,
+    .why-us .col-left
     .why-us .col-right {
         width: 100%;
+        margin-bottom: 50px;
     }
 }
